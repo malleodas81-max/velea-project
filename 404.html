@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><script>if(location.protocol==='file:'){document.write('<p style="font:16px/1.5 system-ui,sans-serif;padding:2rem;max-width:42rem">Сайт использует чистые URL, поэтому ему нужен локальный сервер. Выполните <b>npm start</b> в этой папке и откройте адрес, который покажет консоль (или дважды щёлкните <b>start.bat</b> в Windows).</p>');window.stop&&window.stop();}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Страница не найдена | VELÉA</title>
+<meta name="description" content="Такой страницы не существует.">
+<meta name="theme-color" content="#f6f2ea">
+<meta name="robots" content="noindex,follow">
+
+
+<meta name="color-scheme" content="light"><link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<script>document.documentElement.classList.add('js');</script>
+<link rel="preload" href="/assets/fonts/BodoniModa.woff" as="font" type="font/woff" crossorigin><link rel="preload" href="/assets/fonts/PlayfairDisplay-cyrillic.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/assets/fonts/Inter-cyrillic.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/assets/fonts/Inter-400.woff" as="font" type="font/woff" crossorigin><link rel="stylesheet" href="/css/fonts.css"><link rel="stylesheet" href="/css/tokens.css"><link rel="stylesheet" href="/css/base.css"><link rel="stylesheet" href="/css/components.css"><link rel="stylesheet" href="/css/pages.css"><link rel="stylesheet" href="/css/editorial.css">
+<link rel="stylesheet" href="/css/fx.css">
+</head>
+<body>
+<a class="skip" href="#main" id="skip">Перейти к содержимому</a>
+<div class="sr-only" id="live" aria-live="polite" aria-atomic="true"></div>
+<div class="toast" id="toast" aria-hidden="true"></div>
+<div class="curtain" id="curtain" aria-hidden="true"><span class="curtain__label" id="curtain-label"></span></div>
+<p class="notice" role="note">Бесплатная доставка от 300&nbsp;₽ <span aria-hidden="true">&middot;</span> Промокод <b>WELCOME10</b> <span class="notice__demo"><span aria-hidden="true">&middot;</span> Демо-бутик: ничего не списывается, не отправляется и не сохраняется</span></p>
+<header class="site-header" id="header">
+  <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="menu"><span class="menu-btn__label">Меню</span><span class="menu-btn__bars" aria-hidden="true"><i></i><i></i></span></button>
+  <nav class="site-nav" aria-label="Основная навигация">
+    <a href="/new" data-nav="new">Новинки</a><a href="/shop" data-nav="shop">Каталог</a><a href="/collections" data-nav="collections">Коллекции</a><a href="/campaigns" data-nav="campaigns">Кампании</a><a href="/about" data-nav="about">О бренде</a>
+  </nav>
+  <a class="brand" href="/" aria-label="VELÉA — на главную"><span class="brand__word">VELÉA</span></a>
+  <div class="header-actions">
+    <button class="icon-btn" id="search-btn" type="button" aria-label="Поиск"><svg viewBox="0 0 24 24" width="21" height="21" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M15.500 15.500L21 21" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+    <a class="icon-btn" href="/account" aria-label="Аккаунт (демо)" data-nav="account"><svg viewBox="0 0 24 24" width="21" height="21" aria-hidden="true"><circle cx="12" cy="8" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M4 21c1-4.500 4-6.500 8-6.500s7 2 8 6.500" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></a>
+    <a class="icon-btn" href="/wishlist" aria-label="Избранное" data-nav="wishlist"><svg viewBox="0 0 24 24" width="21" height="21" aria-hidden="true"><path d="M12 20.500s-7.500-4.600-9.200-9.400C1.600 7.700 3.900 4.500 7.100 4.500c1.900 0 3.500 1 4.900 3 1.400-2 3-3 4.900-3 3.200 0 5.500 3.200 4.300 6.600-1.700 4.800-9.200 9.400-9.200 9.400z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><span class="badge" id="wish-count" hidden>0</span></a>
+    <button class="icon-btn" id="cart-btn" type="button" aria-label="Открыть корзину" aria-haspopup="dialog"><svg viewBox="0 0 24 24" width="21" height="21" aria-hidden="true"><path d="M5 8h14l-1 12H6z M9 8V6.500a3 3 0 016 0V8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><span class="badge" id="cart-count" hidden>0</span></button>
+  </div>
+</header>
+<div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Меню сайта" hidden>
+  <div class="menu__bg" aria-hidden="true"><i></i><i></i><i></i></div>
+  <nav class="menu__nav" aria-label="Меню">
+    <a href="/" data-nav="home"><span>01</span>Главная</a><a href="/new" data-nav="new"><span>02</span>Новинки</a><a href="/shop" data-nav="shop"><span>03</span>Весь каталог</a><a href="/collections" data-nav="collections"><span>04</span>Коллекции</a><a href="/campaigns" data-nav="campaigns"><span>05</span>Кампании</a><a href="/about" data-nav="about"><span>06</span>О бренде</a><a href="/contact" data-nav="contact"><span>07</span>Контакты</a><a href="/faq" data-nav="faq"><span>08</span>Вопросы</a>
+  </nav>
+  <div class="menu__side"><p class="eyebrow">Категории</p><a class="menu__mail" href="/shop?cat=%D0%92%D0%B5%D1%80%D1%85%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D0%B6%D0%B4%D0%B0">Верхняя одежда</a><a class="menu__mail" href="/shop?cat=%D0%9F%D0%BB%D0%B0%D1%82%D1%8C%D1%8F">Платья</a><a class="menu__mail" href="/shop?cat=%D0%A1%D1%83%D0%BC%D0%BA%D0%B8">Сумки</a><a class="menu__mail" href="/shop?cat=%D0%9E%D0%B1%D1%83%D0%B2%D1%8C">Обувь</a><p class="menu__note">Демо-магазин. Здесь ничего нельзя купить.</p></div>
+</div>
+<main id="main" tabindex="-1"><noscript><p style="padding:120px 24px">Страница не найдена.</p></noscript></main>
+<footer class="site-footer" id="footer">
+  <div class="footer__top">
+    <div class="footer__news"><p class="eyebrow">Письма из ателье</p><h2>Подпишитесь на рассылку</h2><p>Новые коллекции, закрытые распродажи и истории из студии. (Демо-форма: ничего не сохраняется.)</p>
+      <form class="form news" id="newsletter" novalidate><div class="form__summary" role="alert" tabindex="-1"></div><div class="field"><label for="nl-email">Адрес электронной почты</label><input id="nl-email" name="email" type="email" required aria-required="true" autocomplete="email" data-label="адрес электронной почты" placeholder="name@example.com" aria-describedby="nl-err"><span class="field__err" id="nl-err"></span></div><button class="btn btn--primary" type="submit" data-label="Подписаться">Подписаться</button></form></div>
+  </div>
+  <div class="footer__cols">
+    <nav aria-label="Магазин"><h2>Магазин</h2><a href="/new">Новинки</a><a href="/shop">Все товары</a><a href="/collections">Коллекции</a><a href="/wishlist">Избранное</a></nav>
+    <nav aria-label="О бренде"><h2>О бренде</h2><a href="/about">О нас</a><a href="/campaigns">Кампании</a><a href="/contact">Контакты</a></nav>
+    <nav aria-label="Помощь"><h2>Помощь</h2><a href="/faq">Вопросы и ответы</a><a href="/policies/shipping">Доставка</a><a href="/policies/returns">Возврат</a><a href="/policies/privacy">Конфиденциальность</a><a href="/policies/terms">Условия</a></nav>
+    <div><h2>Бутик (вымышленный)</h2><p>Rua Garrett 44<br>1200-203 Лиссабон</p><p>Пн–Сб, 10:00–19:00</p></div>
+  </div>
+  <div class="footer__word" aria-hidden="true"><span>VELÉA</span></div>
+  <div class="footer__base"><p>&copy; 2026 VELÉA. Вымышленный модный дом, созданный для портфолио: товары и бренд придуманы, оплата никогда не проводится.</p><a href="#main" id="to-top" class="to-top">Наверх <span aria-hidden="true">&uarr;</span></a></div>
+</footer>
+<div class="drawer" id="drawer" hidden><div class="drawer__scrim"></div><aside class="drawer__panel" role="dialog" aria-modal="true" aria-label="Корзина"><header><h2>Корзина</h2><button class="drawer__close" type="button" aria-label="Закрыть корзину">&times;</button></header><div class="drawer__body" id="drawer-body"></div><div class="drawer__foot" id="drawer-foot"></div></aside></div>
+<div class="search" id="search" hidden><div class="search__scrim"></div><div class="search__panel" role="dialog" aria-modal="true" aria-label="Поиск"><button class="search__close" type="button" aria-label="Закрыть поиск">&times;</button><form id="search-form" role="search"><label class="sr-only" for="search-input">Поиск по товарам</label><input id="search-input" type="search" placeholder="Пальто, шёлк, кожа…" autocomplete="off"></form><div id="search-results"></div></div></div>
+<div class="cursor" id="cursor" aria-hidden="true"><i class="cursor__dot"></i><i class="cursor__ring"><b class="cursor__label"></b></i></div>
+<noscript><p class="noscript">Для отображения страниц VELÉA нужен JavaScript.</p></noscript>
+<script src="/data/images.js"></script><script src="/data/products.js"></script><script src="/data/content.js"></script>
+<script src="/js/utils.js"></script><script src="/js/store.js"></script><script src="/js/components/motion.js"></script><script src="/js/components/chrome.js"></script><script src="/js/components/forms.js"></script><script src="/js/components/ui.js"></script>
+<script src="/js/pages/home.js"></script><script src="/js/pages/shop.js"></script><script src="/js/pages/product.js"></script><script src="/js/pages/cart.js"></script><script src="/js/pages/checkout.js"></script><script src="/js/pages/content.js"></script>
+<script src="/js/components/fx.js"></script><script src="/js/router.js"></script><script src="/js/app.js"></script>
+</body>
+</html>
